@@ -1,2 +1,5 @@
 build/
 node_modules/
+.cargo/
+.rustup/
+.rheo-binary/

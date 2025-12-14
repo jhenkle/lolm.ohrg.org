@@ -6,8 +6,9 @@ echo "=== Starting dtl_vocabulary build ==="
 echo "Timestamp: $(date)"
 
 # Setup paths
+REPO_DIR="$(pwd)"
 CARGO_BIN="$CARGO_HOME/bin"
-RHEO_CACHE="/opt/build/cache/rheo-binary"
+RHEO_CACHE="$REPO_DIR/.rheo-binary"
 RHEO_BIN="$RHEO_CACHE/rheo"
 
 # Install Rust if not already cached
@@ -56,7 +57,7 @@ if [ ! -f "$RHEO_BIN" ]; then
   cp target/release/rheo "$RHEO_BIN"
   chmod +x "$RHEO_BIN"
 
-  cd "$OLDPWD"
+  cd "$REPO_DIR"
 
   echo "Rheo built and cached successfully"
 else
