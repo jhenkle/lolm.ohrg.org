@@ -1,3 +1,4 @@
+version = "0.1.2"
 content_dir = "terms"
 
 [pdf.merge]
