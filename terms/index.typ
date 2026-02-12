@@ -1,4 +1,4 @@
-= Critical terms for artificially intelligent life 
+= The Language of Language Machines 
 
 - #link("./llm.typ")[llm] 
 - #link("./alignment.typ")[alignment]  
@@ -19,3 +19,18 @@
 - #link("./token.typ")[token] 
 - #link("./tokenization.typ")[tokenization] 
 - #link("./transformer.typ")[transformer] 
+
+== What is this?
+
+_The Language of Language Machines_ is a working group at the #link("https://digitaltheory.org/")[Digital Theory Lab] to produce a critical vocabulary for understanding contemporary (post-2015) natural language processing (NLP) literature.
+Said vocabulary is in-progress above.
+Some work that inspires our approach:
+
+- #link("https://direct.mit.edu/books/monograph/4424/Parallel-Distributed-Processing-Volume")[Parallel Distributed Processing] (1987)  
+- #link("https://www.routledge.com/The-Language-of-Psychoanalysis/Laplanche-Pontalis/p/book/9780946439492")[The Language of Psychoanalysis], Jean Laplanche (1988) 
+- #link("https://archive.org/details/computerpowerhum0000weiz_v0i3")[Computer Power and Human Reason], Joseph Weizenbaum (1976) 
+- #link("https://arxiv.org/abs/1706.03762")[Attention is All You Need] (2017) 
+
+== Who does this?
+
+The working group is currently run by #link("https://lachlankermode.com/")[Lachlan Kermode] and #link("https://ryan-healey.com/")[Ryan Healey].
