@@ -1,3 +1,6 @@
+#import "index.typ": template
+#show: template
+
 Alignment is the process of training a system to behave in ways that match human values and intentions, rather than simply generating whatever text is statistically likely.
 Without alignment, a model trained on internet text might produce harmful content, follow malicious instructions, or give dangerous advice, since plenty of such content exists online.
 Engineers attempt to train these systems to refuse inappropriate requests, provide helpful and accurate information, and maintain appropriate boundaries.

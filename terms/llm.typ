@@ -1,3 +1,6 @@
+#import "index.typ": template
+#show: template
+
 An LLM, or Large Language Model, is the name given to the kind of machine learning architecture that powers conversational interfaces like ChatGPT, Claude, and Gemini.
 
 Why distinguish large language models from (regularly sized) language models?

@@ -1,6 +1,11 @@
-= The Language of Language Machines 
+#let template(body) = {
+  [== #link("/")[The Language of Language Machines]]
+  body
+}
 
-- #link("./llm.typ")[llm] 
+#show: template
+
+- #link("./llm.typ")[llm]
 - #link("./alignment.typ")[alignment]  
 - #link("./attention.typ")[attention] 
 - #link("./base-model.typ")[base model] 

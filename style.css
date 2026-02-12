@@ -69,7 +69,11 @@ li {}
 /* ============================================
    Vocabulary Grid
    ============================================ */
-h2 + ul {
+body > h3:first-child {
+  text-align: center;
+}
+
+body > h3:first-child + ul {
   list-style: none;
   padding-left: 0;
   display: grid;
@@ -77,15 +81,16 @@ h2 + ul {
   gap: 0;
 }
 
-h2 + ul li {
+body > h3:first-child + ul li {
   border: 1px solid var(--blockquote-border);
   margin: -0.5px;
 }
 
-h2 + ul li a {
+body > h3:first-child + ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 0.75em;
   text-decoration: none;
   background-color: var(--background-color);
@@ -93,20 +98,20 @@ h2 + ul li a {
   transition: background-color 0.2s, color 0.2s;
 }
 
-h2 + ul li a:hover {
+body > h3:first-child + ul li a:hover {
   background-color: var(--text-color);
   color: var(--background-color);
   opacity: 1;
 }
 
 @media (min-width: 601px) {
-  h2 + ul {
+  body > h3:first-child + ul {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 900px) {
-  h2 + ul {
+  body > h3:first-child + ul {
     grid-template-columns: repeat(4, 1fr);
   }
 }

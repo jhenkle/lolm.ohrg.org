@@ -1,3 +1,6 @@
+#import "index.typ": template
+#show: template
+
 Inference is the technical term for what happens when you submit a message to a chat AI and it generates a response.
 Essentially, the model is 'inferring' what text should come next based on its training.
 Unlike the training phase, which involves adjusting billions of parameters over weeks or months using massive computing resources, inference is relatively quick and uses the frozen, learned parameters to process your specific input and generate output in real-time.
