@@ -27,7 +27,7 @@
 
 == What is this?
 
-_The Language of Language Machines_ is a working group at the #link("https://digitaltheory.org/")[Digital Theory Lab] to produce a critical vocabulary for understanding contemporary (post-2015) natural language processing (NLP) literature.
+_The Language of Language Machines_ is a working group to produce a critical vocabulary for understanding contemporary (post-2015) natural language processing (NLP) literature.
 Said vocabulary is in-progress above.
 Some work that inspires our approach:
 
