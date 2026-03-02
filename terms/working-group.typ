@@ -1,0 +1,61 @@
+#import "index.typ": template
+#show: template
+
+= Working group
+
+LOLM is developed through a working group that meets weekly.
+This document details the structure for the process by which we surface, construct, and editorially manage new entries in the project.
+
+== General method 
+
+An entry in LLM should be neither purely a technical history nor a media-theoretical critique of a term.
+The project is designed to contextualize the way in which terms in the NLP technical literature emerge, come to prominenence, and leak historical and philosophical meaning through their circulation. 
+
+Each entry should aim to:
+
++ *Locate the paper/s in which the lexicon was first introduced into the computer scientific lexicon.* Is there a particular paper that coined the term? Does this paper or originary location give a justification or set of motivations for the particular turn of language?
++ *Track the development and dissemination of the term in the recent history of technical literature since its inception.* How widely is it used? Has it inspired or been refined by other terms or concepts in NLP or more broadly? Does this term draw any critical dependencies on other terms in the technical literature? (If these terms exist in LOLM, reference complementary entries with relative links.)
++ *Surface historical precedents or referents for the term.* What are the ways in which the term has been deployed prior to its technical coinage, and how do these deployments bear on the term's stature in technical literature? Does the term have significant meaning in any other disciplines or technical vocabularies? 
++ *Offer a philosophical, critical, or media-theoretical framing for the term without abandoning its technical specificity.* What critical distance, if any, should we keep from the way that the term circulates in NLP literature? Does the term bootleg any naturalizing or otherwise problematic assumptions about the technical mechanism to which it refers (such as a claim to biological verisimilitude)?
++ *Conclude with a set of questions to inspire further inquiry.* This might be a seed for further media theoretical thought, an acknowledgment of missing history, or a query about how we might shore up misconceptions associated with the term or the mechanism it presumes to represent.
+
+== Term-stewards 
+
+New terms are brought to the LOLM working group through a *steward*.
+Any member of the working group can self-elect as a new term's steward, and all working group sessions will begin with an open call for new term-stewards.
+Not all working group members need to self-elect as a term-steward, and there is no limit to the number of concurrent terms for which one person can self-elect as steward.
+
+A term's steward brings a new term to the working group with _at least one_ and ideally multiple of the following:
+- A technical understanding of the term (of any character, level, or depth).
+- The paper/book/event in which the term is thought to originate.
+- A feeling for the way in which the term currently circulates in technical literature.
+- A historical or critical reflection on the term that is adjacent to its technical meaning in NLP. 
+
+Once a new term/steward has been presented, the working group will collectively discuss it.
+The aim of this discussion is to fill out the body of the aims listed above in the 'General method'.
+Post-discussion, the working group will then elect an *editor* for the term who will work with the steward to fill an entry in LOLM (see next section).
+
+== Term-editors
+
+A term-editor is responsible for filling out an entry in LOLM itself by working with the term-steward and other invested/interested parties.
+
+This contribution will ultimately take the form of a #link("https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests")[pull request] to the LOLM GitHub repository.
+All sections of LOLM are written in #link("https://typst.app/")[Typst], and LOLM is envisioned as being published concurrently as a website (https://lolm.ohrg.org/), a PDF, and an EPUB through the #link("https://rheo.ohrg.org/")[Rheo] toolchain.
+(Merging a pull request to the `main` branch of the LOLM GitHub repository will trigger a recompilation of all three of these formats.)
+
+Whereas the term-steward is responsible for surfacing the dimensions of a term that should be documented in its LOLM entry, the term-editor is responsible for compiling these many threads into a single and coherent entry in the project.
+The construction of this entry may benefit from separate meetings between steward and editor, and perhaps even sub-working groups if there are many interested parties.
+
+There is no strict timeframe on a term's transition from discussion (via steward) to page (via editor).
+Each working group session will assess the terms that are in flight, asking status updates of steward/editor pairs and whether the contribution would benefit from any further discussion or help.
+
+== The lifecycle of a term by example 
+
+[Live demo]
+
+#table(
+  columns: 2,
+  [Term], [Attention],
+  [Steward], [Ryan Healey],
+  [Editor], [Lachlan Kermode],
+)
