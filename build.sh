@@ -2,7 +2,7 @@
 set -e  # Exit on error
 set -x  # Print commands for debugging
 
-echo "=== Starting dtl_vocabulary build ==="
+echo "=== Starting build ==="
 echo "Timestamp: $(date)"
 
 # Setup paths
@@ -30,8 +30,11 @@ export PATH="$RHEO_CACHE:$PATH"
 # Verify rheo is accessible
 rheo --version || echo "Warning: rheo --version failed, but continuing..."
 
+# Install Python dependencies
+pip3 install --quiet markdown
+
 # Compile the vocabulary project
-echo "Compiling dtl_vocabulary with rheo..."
+echo "Compiling with rheo..."
 rheo compile . --html
 
 # Verify output was generated
