@@ -9,7 +9,7 @@ This document details the structure for the process by which we surface, constru
 == General method 
 
 An entry in LLM should be neither purely a technical history nor a media-theoretical critique of a term.
-The project is designed to contextualize the way in which terms in the NLP technical literature emerge, come to prominenence, and leak historical and philosophical meaning through their circulation. 
+The project is designed to contextualize the way in which terms in the NLP technical literature emerge, come to prominence, and leak historical and philosophical meaning through their circulation. 
 
 Each entry should aim to:
 
