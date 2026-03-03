@@ -5,7 +5,7 @@
 
 #show: template
 
-- #link("./llm.typ")[LLM]
+- #link("./llm.typ")[llm]
 - #link("./alignment.typ")[alignment]  
 - #link("./attention.typ")[attention] 
 - #link("./base-model.typ")[base model] 
