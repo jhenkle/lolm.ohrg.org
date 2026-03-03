@@ -1,6 +1,15 @@
 #import "index.typ": template
 #show: template
 
+= LLM (Large Language Model)
+
+#table(
+  columns: 2,
+  [Steward], [Lachlan Kermode],
+  [Editor], [Lachlan Kermode],
+)
+
+
 An LLM, or Large Language Model, is the name given to the kind of machine learning architecture that powers conversational interfaces like ChatGPT, Claude, and Gemini.
 
 Why distinguish large language models from (regularly sized) language models?

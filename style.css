@@ -69,25 +69,39 @@ li {}
 /* ============================================
    Vocabulary Grid
    ============================================ */
-body > h3:first-child {
+body > h3:nth-of-type(1) {
   text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: var(--background-color);
+  padding: 0.5em 0;
+  border-bottom: 1px solid var(--blockquote-border);
+  z-index: 100;
+  margin-top: 0;
 }
 
-body > h3:first-child + ul {
-  list-style: none;
-  padding-left: 0;
-  display: grid;
+body > h3:nth-of-type(1) a {
+  font-variant: small-caps;
+  text-decoration: none;
+}
+
+body > h3:nth-of-type(1) + ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  display: grid !important;
   grid-template-columns: repeat(2, 1fr);
   gap: 0;
+  margin: 2em 0 !important;
 }
 
-body > h3:first-child + ul li {
+body > h3:nth-of-type(1) + ul li {
   border: 1px solid var(--blockquote-border);
   margin: -0.5px;
+  list-style: none !important;
 }
 
-body > h3:first-child + ul li a {
-  display: flex;
+body > h3:nth-of-type(1) + ul li a {
+  display: flex !important;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -96,23 +110,24 @@ body > h3:first-child + ul li a {
   background-color: var(--background-color);
   color: var(--text-color);
   transition: background-color 0.2s, color 0.2s;
+  font-variant: small-caps;
 }
 
-body > h3:first-child + ul li a:hover {
+body > h3:nth-of-type(1) + ul li a:hover {
   background-color: var(--text-color);
   color: var(--background-color);
   opacity: 1;
 }
 
 @media (min-width: 601px) {
-  body > h3:first-child + ul {
-    grid-template-columns: repeat(3, 1fr);
+  body > h3:nth-of-type(1) + ul {
+    grid-template-columns: repeat(3, 1fr) !important;
   }
 }
 
 @media (min-width: 900px) {
-  body > h3:first-child + ul {
-    grid-template-columns: repeat(4, 1fr);
+  body > h3:nth-of-type(1) + ul {
+    grid-template-columns: repeat(4, 1fr) !important;
   }
 }
 
