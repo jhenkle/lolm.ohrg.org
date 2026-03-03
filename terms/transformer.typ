@@ -1,6 +1,8 @@
 #import "index.typ": template
 #show: template
 
-A transformer is the underlying architectural design that makes modern chat AI systems possible.
-Before transformers, AI struggled to understand how words relate to each other across long stretches of text, but transformers introduced a mechanism that allows the system to track connections between any words in a passage, no matter how far apart they are.
-This breakthrough, introduced in a 2017 research paper titled 'Attention is All You Need,' enabled AI to better grasp context and meaning, which is why systems like ChatGPT can hold coherent conversations and understand nuanced instructions across multiple exchanges.
+[pending]
+
+// A transformer is the underlying architectural design that makes modern chat AI systems possible.
+// Before transformers, AI struggled to understand how words relate to each other across long stretches of text, but transformers introduced a mechanism that allows the system to track connections between any words in a passage, no matter how far apart they are.
+// This breakthrough, introduced in a 2017 research paper titled 'Attention is All You Need,' enabled AI to better grasp context and meaning, which is why systems like ChatGPT can hold coherent conversations and understand nuanced instructions across multiple exchanges.

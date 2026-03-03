@@ -138,6 +138,21 @@ code {
 }
 
 /* ============================================
+   Tables
+   ============================================ */
+table {
+  margin: 1.5em auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid var(--blockquote-border);
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+
+/* ============================================
    Blockquotes
    ============================================ */
 blockquote {

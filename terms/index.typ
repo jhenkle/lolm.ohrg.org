@@ -9,7 +9,6 @@
 - #link("./alignment.typ")[alignment]  
 - #link("./attention.typ")[attention] 
 - #link("./base-model.typ")[base model] 
-- #link("./chat-assistant.typ")[chat assistant] 
 - #link("./context-window.typ")[context window] 
 - #link("./embedding.typ")[embedding] 
 - #link("./few-shot.typ")[few shot] 
@@ -19,11 +18,10 @@
 - #link("./pre-training.typ")[pre-training] 
 - #link("./prompt-engineering.typ")[prompt engineering] 
 - #link("./prompt-injection.typ")[prompt injection] 
-- #link("./prompt.typ")[prompt] 
 - #link("./temperature.typ")[temperature] 
-- #link("./token.typ")[token] 
 - #link("./tokenization.typ")[tokenization] 
 - #link("./transformer.typ")[transformer] 
+- #link("./vibe-coding.typ")[vibe coding] 
 
 == What is this?
 
