@@ -31,6 +31,7 @@
 - #term("embedding", "./embedding.html", active: true)
 - #term("few shot", "./few-shot.html")
 - #term("fine tuning", "./fine-tuning.html")
+- #term("gpu", "./gpu.html")
 - #term("homogenization effects", "./homogenization-effects.html", active: true)
 - #term("inference", "./inference.html", active: true)
 - #term("multimodality", "./multimodality.html")
