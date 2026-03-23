@@ -18,7 +18,7 @@ AI models are enabled by embeddings as they stand in as 'indirect' access to the
 Word2vec @mikolov_efficient_2013 is a kind of embedding that maps words to numerical vectors. This kind of embedding is one of the most ubiquitous in contemporary AI models. 
 Word2vec innovates over previous techniques for encoding words in natural language by mapping billions of words in the same representation space.
 Working with these large data-sets word-embeddings are able to capture multiple kinds of similarities between words.
-Word2vec for instance showed early results "where simple algebraic operations are performed on the word vectors, it was shown for example that vector(”King”) - vector(”Man”) + vector(”Woman”) results in a vector that is closest to the vector representation of the word Queen"@mikolov_efficient_2013 (see @mikolov-etal-2013-linguistic). 
+Word2vec for instance showed early results #quote[where simple algebraic operations are performed on the word vectors, it was shown for example that vector("King") - vector("Man") + vector("Woman") results in a vector that is closest to the vector representation of the word Queen] @mikolov_efficient_2013 (see also @mikolov-etal-2013-linguistic). 
 Word-embedding techniques like word2vec allow Large Language Models (see #link("llm.typ")[LLM]) to make syntactic and semantic connections between words to form coherent phrases and sentences. 
 In model training, models learn the vector semantics of the most common word-embeddings reducing complexity and increasing the meaningfulness of representations. 
 
