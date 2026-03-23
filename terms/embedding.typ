@@ -9,7 +9,7 @@
   [Editor], [TBA],
 )
 
-Embeddings refer to a method in machine learning of representing discrete high-dimensional and conceptual data (think words, sentences, images, etc.) into continuous, compact vector space. 
+An embedding is a representation of discrete high-dimensional and conceptual data (such as words, sentences, or images) as a continuous and compact vector space. 
 This approach aims to make meaningful connections between objects mapping similar concepts closer together such that we can identify patterns in representations. 
 AI models are unable to work with data like words and images directly; embedding is a method that encodes this data as lists of numbers (vectors) that the model can work with and transform. 
 
